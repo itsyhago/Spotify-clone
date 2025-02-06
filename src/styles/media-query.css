@@ -1,0 +1,28 @@
+@media screen and (min-width: 1560px) {
+    .offer__list-item{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+@media screen and (max-width: 1315px) {
+    .offer__list-item{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    body{
+        overflow-x: visible;
+    }
+}
+@media screen and (max-width: 1115px) {
+
+    .header__navgation .navgation__button {
+        display: none;
+    }
+    .header__navgation .navgation{
+        justify-content: space-around;
+    }
+   
+}
+
+
+

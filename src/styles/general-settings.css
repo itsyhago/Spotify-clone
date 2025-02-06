@@ -1,0 +1,19 @@
+/* general settings */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Body and Html */
+body{
+    display: flex;
+    background-color: var(--color1);
+   overflow: hidden;
+
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+

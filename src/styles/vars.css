@@ -1,0 +1,18 @@
+/* root */
+:root{
+    /* Fonts */
+    --font-Montserrat: 'Montserrat', sans-serif;
+
+    /* Colors */
+    --color1: #000000;
+    --color2: #ffffff;
+    --color3: #121212;
+    --color4: #B3B3B3;
+    --color5: #242424;
+    --color6: #878787;
+    --color7: #a7a7a7;
+    --gb-color: #131313;
+    --bg-icon-op: rgba(0,0,0.7);
+    --color-gradient-1: #ae2896;
+    --color-gradient-2: #509bf5;
+}

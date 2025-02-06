@@ -1,0 +1,239 @@
+/* Div - sidebar */
+.sidebar{
+    min-width: 300px;
+    height: 100vh;
+    background-color: transparent;
+    padding: 12px;
+}
+
+/* Nav - Menu bar */
+.sidebar__navgation{
+    height: fit-content;
+    background-color: var(--color3);
+    border-radius: 8px ;
+    padding: 16px 0px 11px 16px;
+}
+
+/* Logo */
+.logo{
+    width: 100%;
+    display: flex;
+}
+.logo img{
+    width: 80px;
+
+}
+
+/* Link list */
+.nav__links{
+    margin-top: 20px;
+}
+.nav__links li{
+    list-style: none;
+    padding: 5px 0;
+}
+.nav__links li a{
+    display: inline-block;
+    text-decoration: none ;
+    font: normal normal 600 14px var(--font-Montserrat);
+    color: var(--color4);
+}
+.nav__links li a:hover {
+    color: var(--color2);
+    transform: scale(1.04);
+}
+.nav__links li i{
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+/* Your library */
+.library{
+    height: fit-content;
+    margin-top: 10px;
+    background-color: var(--color3);
+    border-radius: 8px ;
+    padding: 4px 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font: normal normal 600 14px var(--font-Montserrat);
+    color: var(--color4);
+}
+
+/* Library content */
+.library__content{
+    width: 100%;
+    height:fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+/* Library button */
+.library__content .library__button{
+    width:  fit-content;
+    height:fit-content ;
+    border: none;
+    background-color: transparent;
+    font: normal normal 700 1rem var(--font-Montserrat);
+    color: var(--color4);
+    cursor: pointer;
+    
+}
+.library__button .fa{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.library__content .library__button:hover{
+    color: var(--color2);
+}
+
+/* Library plus */
+.library__content .plus{
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    text-decoration: none ;
+    font: normal normal 600 16px var(--font-Montserrat);
+    color: var(--color4);
+
+}
+.library__content .plus::after{
+    content: "";
+    display: none ;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #b3b3b315;
+    position: relative;
+    top: -25px;
+    left:  -8.2px;
+}
+.library__content .plus:hover::after{
+    display: block;
+}
+
+/* Section playlist */
+.section__playlist{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: var(--color5);
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+
+/* Section playlist content */
+.section__playlist .section__playlist__content{
+    display: flex;
+    flex-direction: column;
+}
+.section__playlist__content .text{
+    padding-bottom: 14px;
+    color: var(--color4);
+}
+.section__playlist__content .title{
+    font-weight: 700;
+}
+.section__playlist__content .subtitle{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+/* Section playlist button */
+.section__playlist__content .section__playlist__button{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    background-color: var(--color2);
+    color: var(--color1);
+    border-radius: 20px ;
+    font: normal normal 700 12px var(--font-Montserrat);
+    padding: 10px;
+    margin-top: 12px;
+    border: none;
+}
+.section__playlist__content .section__playlist__button:hover{
+    transform: scale(1.04);
+}
+
+/* Library cookies */
+.library .cookies{
+    margin: 25px 20px;
+}
+.library .cookies a{
+    color: var(--color4);
+    font-weight: 500;
+    font-size: 10px;
+    text-decoration: none;
+}
+.library .cookies a:hover{
+    color: var(--color2);
+}
+
+/* Languages button */
+.laguages .languages__button{
+    background-color: transparent;
+    border:  1px solid var(--color6) ;
+    color: var(--color6);
+    cursor: pointer;
+    align-items: center;
+    font: normal normal bold var(--font-Montserrat);
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 20px;
+}
+.laguages .languages__button:hover{
+    transform: scale(1.04);
+    border:  1px solid var(--color2) ;
+    color: var(--color2)
+}
+
+/* Footer - disclaimer-premium */
+.disclaimer-premium{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, var(--color-gradient-1),var(--color-gradient-2));
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font: normal normal  700 14px var(--font-Montserrat);
+    color: var(--color4);
+    padding: 15px 40px;
+    
+}
+
+/* Disclaimer-premium text */
+.disclaimer-premium .text .disclaimer-premium__title{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Disclaimer-premium button */
+.button{
+    display: flex;
+    justify-content: center;
+}
+.disclaimer-premium button{
+    width: 200px;
+    border-radius: 20px;
+    border:none;
+    padding: 14px 30px;
+    margin: 8px;
+    font: normal normal 700 16px var(--font-Montserrat);
+    font-weight: bold;
+    cursor: pointer;
+}
+.disclaimer-premium button:hover{
+    transform: scale(1.04);
+}
