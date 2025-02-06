@@ -11,6 +11,7 @@ main{
 
 /* Div - header__navgation */
 .header__navgation{
+  min-width: 721px;
   padding: 16px;
   margin-bottom:10px;
   border-radius: 8px;
@@ -111,6 +112,7 @@ main{
 /* Playlist */
 
 .playlist-container {
+  min-width: 721px;
   align-items: center;
   height: 68vh;
   padding-top: 16px;
