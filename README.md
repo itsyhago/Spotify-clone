@@ -37,5 +37,5 @@ Sinta-se à vontade para sugerir melhorias, reportar problemas ou contribuir com
 
 ---
 **Autor:** Yhago Pessoa  
-**Data:** 06 de  de 2025
+**Data:** 06 de janeiro de 2025
 
